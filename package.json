@@ -4,7 +4,9 @@
   "description": " A react button component with a warning when clicked ",
   "main": "src/index.js",
   "scripts": {
-    "test": "jest --env=jsdom"
+    "test": "jest --env=jsdom",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,20 @@
   "bugs": {
     "url": "https://github.com/jdeniau/react-button-with-warning/issues"
   },
-  "homepage": "https://github.com/jdeniau/react-button-with-warning#readme"
+  "homepage": "https://github.com/jdeniau/react-button-with-warning#readme",
+  "peerDependencies": {
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.4.8",
+    "@storybook/addon-links": "^3.4.8",
+    "@storybook/addons": "^3.4.8",
+    "@storybook/cli": "^3.4.8",
+    "@storybook/react": "^3.4.8",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "dependencies": {}
 }
